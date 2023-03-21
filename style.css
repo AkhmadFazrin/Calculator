@@ -1,0 +1,12 @@
+div {
+    padding: 100px;
+    background-color: red;
+}
+
+.kotak-merah {
+    background-color: green !important;
+}
+
+p {
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <tittle>Perulangan</tittle>
+</head>
+<body>
+    <script>
+        // Perulangan dengan for
+        for(let i = 0; i < 10; i++){
+            document.write("<p>bilang ke-" + i + "</p>")
+        }
+
+        // Perulangan dengan while
+        var ulangi = confirm("Apakah anda mau mengulang?");
+        var counter = 0;
+
+        while(ulangi){
+            counter++;
+            ulangi > confirm("Apakah anda mau mengulang?");
+        }
+        document.write("Perulangan sudah telah dilakukan sebanyak "+ counter);
+    </script>
+</body>
+</html>

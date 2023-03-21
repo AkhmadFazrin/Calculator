@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <!--Menggunakan Eksternal CSS-->
+    <head>
+        <title>CSS Style</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h3 style="color: red;">Hello World!</h3>
+    </body>
+<hr>
+    <!--Menggunakan Internal CSS-->
+    <head>
+        <title>CSS Style</title>
+        <style>
+            h3 {
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Hello World!</h3>
+    </body>
+<hr>
+    <!--Menggunakan Inline-->
+    <head>
+        <body>
+            <h3 style="color: green;">Hello World!</h3>
+        </body>
+    </head>
+<hr>
+
+<h1><b>CSS Selector</b></h1>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            h2 {color:orange;}
+            p {color:red;}
+            .mobil {color:blue;}
+            #avanza {color:greenyellow}
+        </style>
+    </head>
+    <body>
+        <h2>Halo</h2>
+        <p>Hai</p>
+        <p class="mobil" id="avanza">Ini Avanza</p>
+        <p class="mobil" id="alya">Ini Alya</p>
+    </body>
+<hr>
+
+<h1><b>Attribute Selector</b></h1>
+    <head>
+        <style>
+            a[target] {
+                background-color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://web.whatsapp.com/">whatsappweb.com</a>
+        <a href="https://www.youtube.com/" target="_blank">youtube.com</a>
+        <a href="https://mail.google.com/mail/u/0/?hl=en#inbox" target="_top">gmail.com</a>
+    </body>
+<hr>
+
+<h1><b>Attribute Selector (Pseudo Class)</b></h1>
+<head>
+    <style>
+        a:hover {
+            background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://web.whatsapp.com/">whatsappweb.com</a>
+    <a href="https://www.youtube.com/">youtube.com</a>
+    <a href="https://mail.google.com/mail/u/0/?hl=en#inbox">gmail.com</a>
+    <a href="https://www.w3schools.com">w3schools.com</a>
+</body>
+<hr>
+
+</html>
